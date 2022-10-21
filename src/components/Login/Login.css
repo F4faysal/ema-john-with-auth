@@ -1,0 +1,52 @@
+
+.titel{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.from-Continer {
+  box-sizing: border-box;
+  width: 500px;
+height: 600px;
+  background: #ffffff;
+  border: 1px solid #95a0a7;
+  border-radius: 8px;
+  margin: 30px auto;
+   
+  padding: 40px
+}
+.mail-fild label {
+   
+ 
+ display: block;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.0015em;
+  color: #2a414f;
+}
+.mail-fild input {
+  width: 415px;
+  height: 55px;
+  box-sizing: border-box;
+  border: 1px solid #95a0a7;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 26px;
+
+}
+
+.submit-bin {
+    width: 415px;
+    height: 55px;
+  border: none;
+  background: rgba(255, 153, 0, 0.3);
+  border-radius: 5px;
+  margin-top: 25px;
+}
+
+.submit-bin:hover{
+  background: rgba(255, 153, 0, 0.6);
+
+}

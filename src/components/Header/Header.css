@@ -14,6 +14,29 @@
     font-size: 17px;
     margin-left: 36px;
 }
+
+.btn-logut{
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-size: 17px;
+    margin-left: 36px;
+    background-color: #1C2B35;
+    border: none;
+}
+
+.btn-logut:hover{
+    color: orange;
+}
 .header a:hover{
     color: orange;
+}
+
+.profile{
+    color: #FFFFFF;
+    font-size: 17px;
+    margin-left: 36px;
+    padding: 5px;
+    background-color: black;
+    border-radius: 10px;
+
 }
