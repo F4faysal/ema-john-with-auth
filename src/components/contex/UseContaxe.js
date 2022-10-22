@@ -44,7 +44,7 @@ useEffect(()=>{
       return ()=> unsucbier();
 },[])
 
-const authInfo ={user , creatUser , signIn , logOut}
+const authInfo ={ user , creatUser , signIn , logOut}
 
     return (
         <AuthContext.Provider value={authInfo}>

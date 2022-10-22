@@ -9,6 +9,8 @@ import { productsAndCartLoader } from "./loaders/productsAndCartLoader";
 import Login from "./components/Login/Login";
 import Singup from "./components/Singup/Singup";
 import { Simulate } from "react-dom/test-utils";
+import Shepping from "./components/Shepping/Shepping";
+import PrivateRouter from "./routes/PrivateRouter";
 
 function App() {
   const router = createBrowserRouter([
@@ -33,6 +35,10 @@ function App() {
         {
           path: "about",
           element: <About></About>,
+        },
+        {
+          path: "shepping",
+          element: <PrivateRouter><Shepping></Shepping></PrivateRouter>,
         },
         {
           path: "login",
